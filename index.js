@@ -5,7 +5,7 @@ var userClickedPattern =[];
 var level=0;
 var answer=1;
 
-$("body").keypress(function(){
+$("h1").click(function(){
   if((level==0)){
     nextSequence();
   }
